@@ -1,6 +1,6 @@
 # Module 3 Challenge
 
-PyBank financial analysis <br/>
+## PyBank financial analysis <br/>
 This analysis is carried out to calculate:<br/>
 * Total number of months included in the dataset,<br/>
 * Net total amount of "Profit/Losses" over the entire period,<br/>
@@ -10,7 +10,7 @@ This analysis is carried out to calculate:<br/>
 
 The script is stored in analysis/main.py and output result is in analysis_output.txt. <br/><br/>
 
-PyPoll election results analysis <br/>
+## PyPoll election results analysis <br/>
 This analysis is carried out to calculate: <br/>
 * Total number of votes,<br/>
 * Number of votes,<br/>
