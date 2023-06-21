@@ -1,10 +1,11 @@
 # import modules
 import os
 import csv
+import sys 
 
 # specify the file path
-csvpath = os.path.join('PyPoll/Resources', 'election_data.csv')
-output_file = os.path.join('PyPoll/analysis', 'output.txt')
+csvpath = os.path.join('..', 'Resources', 'election_data.csv')
+output_file = os.path.join('..', 'analysis', 'output.txt')
 # CSV reader specifies delimiter and variable that holds contents
 # declare variables
 with open(csvpath) as csvfile:
@@ -53,7 +54,7 @@ print(f"Winner: {winner}")
 print("\n--------------------------")
                 
 # print the results in a specified format in a output text file
-f = open('PyPoll/analysis/output.txt','w')
+f = open(output_file,'w')
 f.write("Election Results")
 f.write("\n")
 f.write("--------------------------\n") 

@@ -4,8 +4,8 @@ import csv
 import sys
 
 # specify the file path
-csvpath = os.path.join('PyBank/Resources', 'budget_data.csv')
-output_file = os.path.join('PyBank/analysis', 'analysis_output.txt')
+csvpath = os.path.join('..', 'Resources', 'budget_data.csv')
+output_file = os.path.join('..', 'analysis', 'analysis_output.txt')
 
 with open(csvpath) as csvfile:
 
@@ -61,7 +61,7 @@ with open(csvpath) as csvfile:
     print(f'\nGreatest Decrease in Profits: {min_date} ${min_amount}')
 
     # print the analysis results in a specified format in a output text file   
-    f = open('PyBank/analysis/analysis_output.txt', 'w')    
+    f = open(output_file, 'w')    
     f.write("Financial Analysis \n")
     f.write("--------------------------\n")
     f.write(f'\nTotal Months: {month_count}')
